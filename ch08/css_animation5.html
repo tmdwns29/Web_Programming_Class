@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        img {
+            width: 100px;
+            display: block;
+            position: relative;
+            margin: 10px;
+            animation: myanim 5s infinite;
+        }
+        #img1 {animation-timing-function: ease-out;}
+        #img2 {animation-timing-function: ease-in;}
+        @keyframes myanim {
+            from {left: 0px;}
+            to {left: 500px;}
+        }
+    </style>
+</head>
+<body>
+    <img id="img1" src="/제6장-media/rabbit.png">
+    <img id="img2" src="/제6장-media/turtle.png">
+</body>
+</html>
